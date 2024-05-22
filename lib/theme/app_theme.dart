@@ -1,8 +1,14 @@
 import '../utils/export_utils.dart';
 
 class AppTheme {
-  static LinearGradient linear =
-      LinearGradient(colors: [HexColor("#E4D28A"), HexColor("#C6A41B")]);
+  static LinearGradient linear = LinearGradient(colors: [
+    HexColor("#E4D28A"),
+    HexColor("#C6A41B"),
+  ]);
+  static const LinearGradient linearWhite = LinearGradient(colors: [
+    Colors.white12,
+    Colors.white,
+  ]);
   static LinearGradient linearIcon = LinearGradient(colors: [
     HexColor("#C6A41B"),
     HexColor("#E4D28A"),

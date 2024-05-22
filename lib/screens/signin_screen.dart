@@ -67,70 +67,7 @@ class SigninScreen extends StatelessWidget {
                     ),
                   ),
                   const SizespaceComponent(size: 15),
-                  SizedBox(
-                    width: AppResponsiveUtils.getResponsiveWidth(context, 325),
-                    child: Row(
-                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                      children: [
-                        ElevatedButton.icon(
-                          icon: Icon(
-                            Icons.facebook,
-                            color: thx.colorScheme.tertiary,
-                            size: AppResponsiveUtils.getResponsiveFontSize(
-                                context, 25),
-                          ),
-                          onPressed: () {},
-                          label: Text(
-                            "Facebook",
-                            style: thx.textTheme.bodyMedium!.copyWith(
-                              fontSize:
-                                  AppResponsiveUtils.getResponsiveFontSize(
-                                      context, 14),
-                            ),
-                          ),
-                          style: ElevatedButton.styleFrom(
-                            backgroundColor: thx.colorScheme.onPrimary,
-                            shadowColor: thx.dividerColor,
-                            shape: RoundedRectangleBorder(
-                              side: BorderSide(color: thx.disabledColor),
-                              borderRadius: BorderRadius.circular(8),
-                            ),
-                          ),
-                        ),
-                        ElevatedButton.icon(
-                          icon: FaIcon(
-                            FontAwesomeIcons.google,
-                            size: AppResponsiveUtils.getResponsiveFontSize(
-                                context, 20),
-                            color: thx.colorScheme.error,
-                          ),
-                          onPressed: () {},
-                          label: Text(
-                            "Google",
-                            style: thx.textTheme.bodyMedium!.copyWith(
-                              fontSize:
-                                  AppResponsiveUtils.getResponsiveFontSize(
-                                      context, 14),
-                            ),
-                          ),
-                          style: ElevatedButton.styleFrom(
-                            fixedSize: Size(
-                              AppResponsiveUtils.getResponsiveWidth(
-                                  context, 145),
-                              AppResponsiveUtils.getResponsiveHeight(
-                                  context, 40),
-                            ),
-                            backgroundColor: thx.colorScheme.onPrimary,
-                            shadowColor: thx.dividerColor,
-                            shape: RoundedRectangleBorder(
-                              side: BorderSide(color: thx.disabledColor),
-                              borderRadius: BorderRadius.circular(8),
-                            ),
-                          ),
-                        )
-                      ],
-                    ),
-                  ),
+                  const OtherSignComponent(),
                   const SizespaceComponent(size: 20),
                   TextButton(
                     onPressed: () {},

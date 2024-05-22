@@ -24,6 +24,7 @@ export 'package:loke_app/components/gradienttext_component.dart';
 export 'package:loke_app/components/mybutton_component.dart';
 export 'package:loke_app/components/emailinput_component.dart';
 export 'package:loke_app/components/passwordinput_component.dart';
+export 'package:loke_app/components/othersign_component.dart';
 /* End list */
 
 /* Controllers list */
