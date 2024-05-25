@@ -6,7 +6,7 @@ class AppTheme {
     HexColor("#C6A41B"),
   ]);
   static const LinearGradient linearWhite = LinearGradient(colors: [
-    Colors.white12,
+    Color.fromARGB(228, 255, 255, 255),
     Colors.white,
   ]);
   static LinearGradient linearIcon = LinearGradient(colors: [

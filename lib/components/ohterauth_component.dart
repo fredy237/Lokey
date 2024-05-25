@@ -1,7 +1,7 @@
 import '../utils/export_utils.dart';
 
-class OtherSignComponent extends StatelessWidget {
-  const OtherSignComponent({super.key});
+class OtherAuthComponent extends StatelessWidget {
+  const OtherAuthComponent({super.key});
 
   @override
   Widget build(BuildContext context) {

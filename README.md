@@ -4,7 +4,7 @@ Une application de localisation des restaurants, sites touristiques et évèneme
 
 ## Description
 
-LOKE est une application mobile qui est réalisé avec Flutter et qui utilise le modèle BLOC pour gérer la logique et l'état de l'application. Cette application permet la découverte des restaurants et sites touristiques intéressants au Cameroun et inclut divers packages tels que `flutter_localizations` et `intl` pour l'instant. Le projet suit une architecture structurée avec des dossiers séparés pour différents composants.
+LOKE est une application mobile qui est réalisé avec Flutter et qui utilise le modèle BLOC pour gérer la logique et l'état de l'application. Cette application permet la découverte des restaurants et sites touristiques intéressants au Cameroun et inclut divers packages tels que `flutter_localizations`, `flutter_bloc`, `intl` et bien d'autres présentés ci-dessous. Le projet suit une architecture Bloc et MVVM.
 
 ## Structure des dossiers
 
@@ -23,6 +23,10 @@ LOKE est une application mobile qui est réalisé avec Flutter et qui utilise le
 
 - `flutter_localizations: sdk: flutter` : Un package pour fournir du texte localisé, des dates, des nombres et plus encore pour les applications Flutter.
 - `intl: 0.18.1` : Un package pour internationaliser et formater les messages, les dates et les nombres dans les applications Flutter.
+- `flutter_bloc: ^8.1.5` : Un package pour gérer la logique métiers et les états dans les applications Flutter.
+- `equatable: ^2.0.5` : Un package utile pour la gestion des états de manière plus soft dans les applications Flutter.
+- `font_awesome_flutter: ^10.7.0` : Un package qui nous fournit un ensemble d'icône pour le style des applications Flutter.
+- `hexcolor: ^3.0.1` : Un package pour gérer les couleurs sous la forme Hexa-décimal dans les applications Flutter.
 
 ## Démarrage
 

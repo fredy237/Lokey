@@ -67,7 +67,7 @@ class SigninScreen extends StatelessWidget {
                     ),
                   ),
                   const SizespaceComponent(size: 15),
-                  const OtherSignComponent(),
+                  const OtherAuthComponent(),
                   const SizespaceComponent(size: 20),
                   TextButton(
                     onPressed: () {},
